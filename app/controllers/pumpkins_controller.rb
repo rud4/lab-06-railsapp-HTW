@@ -69,6 +69,6 @@ class PumpkinsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pumpkin_params
-      params.require(:pumpkin).permit(:type, :color, :size, :price)
+      params.require(:pumpkin).permit(:name, :color, :size, :price)
     end
 end

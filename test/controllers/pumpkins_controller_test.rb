@@ -18,7 +18,7 @@ class PumpkinsControllerTest < ActionController::TestCase
 
   test "should create pumpkin" do
     assert_difference('Pumpkin.count') do
-      post :create, pumpkin: { color: @pumpkin.color, price: @pumpkin.price, size: @pumpkin.size, type: @pumpkin.type }
+      post :create, pumpkin: { color: @pumpkin.color, price: @pumpkin.price, size: @pumpkin.size, name: @pumpkin.name }
     end
 
     assert_redirected_to pumpkin_path(assigns(:pumpkin))
@@ -35,7 +35,7 @@ class PumpkinsControllerTest < ActionController::TestCase
   end
 
   test "should update pumpkin" do
-    patch :update, id: @pumpkin, pumpkin: { color: @pumpkin.color, price: @pumpkin.price, size: @pumpkin.size, type: @pumpkin.type }
+    patch :update, id: @pumpkin, pumpkin: { color: @pumpkin.color, price: @pumpkin.price, size: @pumpkin.size, name: @pumpkin.name }
     assert_redirected_to pumpkin_path(assigns(:pumpkin))
   end
 

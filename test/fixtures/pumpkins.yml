@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  type: 
+  name: Pumpkin
   color: MyString
   size: 1
   price: 9.99
 
 two:
-  type: 
+  name: Hokkaido
   color: MyString
   size: 1
   price: 9.99
