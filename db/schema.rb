@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140613141704) do
+ActiveRecord::Schema.define(version: 20140613150414) do
 
   create_table "pumpkins", force: true do |t|
-    t.string   "type"
+    t.string   "name"
     t.string   "color"
     t.integer  "size"
     t.decimal  "price"
