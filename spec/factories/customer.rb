@@ -15,4 +15,11 @@ FactoryGirl.define do
     name "Track"
     discount 5.0
   end
+
+  factory :customer_with_orders, class: Customer do
+    name "Dagobert"
+    after(:build) do |customer, evaluator|
+      create_list(:order_associated, 5, customer: customer)
+    end
+  end
 end
