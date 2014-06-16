@@ -4,18 +4,18 @@ FactoryGirl.define do
     placed_on { 3.days.ago}
     status :new
   end
-  factory :order1 do
-    association :track, factory: :customer
+  factory :order1, class: Order do
+    association :customer, factory: :track
     placed_on { 6.weeks.ago}
     status :new
   end
-  factory :order2 do
-    association :track, factory: :customer
+  factory :order2, class: Order do
+    association :customer, factory: :track
     placed_on { 80.days.ago}
     status :new
   end
-  factory :order3 do
-    association :track, factory: :customer
+  factory :order3, class: Order do
+    association :customer, factory: :track
     placed_on { 3.days.ago}
     status :new
   end
