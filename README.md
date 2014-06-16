@@ -1,11 +1,17 @@
 HTW
 ===
 
-Halloween Treats Worldwide Rails App
+Halloween Treats Worldwide Rails App - Example App for Lecture and Basis for Rails Exercises
+
+[![Build Status](https://travis-ci.org/htw-imi-info3/HTW.svg?branch=master)](https://travis-ci.org/htw-imi-info3/HTW)
+
+See [Exercise 06 - First Rails Steps](http://bkleinen.github.io/ss2014/info3/labs/lab-06.html)
 
 
-Here's my bash history with all the commands I ran in the lecture:
+Rails Dash - App Creation
 ========================================
+
+## Here's my bash history with all the commands I ran in the lecture:
 
     506  mkdir ss2014
     507  cd ss2014
