@@ -12,9 +12,8 @@
   <% end %>
 
   <% if @customer %>
-
-    Order for Customer: <%=@customer.name %>
-
+    Order for Customer: <%=@customer.name %><br>
+    <%= hidden_field(:order,:customer_id, value: @customer.id) %>
     <% else %>
   <div class="field">
     <%= f.label :customer_id %><br>
