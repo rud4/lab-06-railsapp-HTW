@@ -11,10 +11,18 @@
     </div>
   <% end %>
 
+  <% if @customer %>
+
+    Order for Customer: <%=@customer.name %>
+
+    <% else %>
   <div class="field">
     <%= f.label :customer_id %><br>
     <%= f.number_field :customer_id %>
   </div>
+  <% end %>
+
+
   <div class="field">
     <%= f.label :placed_on %><br>
     <%= f.date_select :placed_on %>

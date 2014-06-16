@@ -14,7 +14,13 @@ class OrdersController < ApplicationController
 
   # GET /orders/new
   def new
-    @order = Order.new
+    #raise params.inspect
+    if params["customer"]
+      @customer = Customer.find(params["customer"])
+      @order = @customer.orders.build
+    else
+      @order = Order.new
+    end
   end
 
   # GET /orders/1/edit
