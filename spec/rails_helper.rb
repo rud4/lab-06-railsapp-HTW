@@ -17,13 +17,23 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 # Checks for pending migrations before tests are run.
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
+# spec/support/factory_girl.rb
 
 RSpec.configure do |config|
   config.include Capybara::DSL, :type => :feature
   #config.include Capybara::RSpecMatchers, :type => :feature
   #https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
   config.include FactoryGirl::Syntax::Methods
+  # additional factory_girl configuration
 
+  config.before(:suite) do
+    begin
+      DatabaseCleaner.start
+      FactoryGirl.lint
+    ensure
+      DatabaseCleaner.clean
+    end
+  end
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   # config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
