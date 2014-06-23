@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :carnival class: Pumpkin do
+  factory :carnival, class: Pumpkin do
     name 'Carnival'
     color 'orange, black, white'
     size  's'
