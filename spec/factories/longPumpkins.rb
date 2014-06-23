@@ -1,14 +1,14 @@
 FactoryGirl.define do
-  factory :carnival, class: Pumpkin do
-    name 'Carnival'
-    color 'orange, black, white'
+  factory :marina, class: Pumpkin do
+    name 'Marina Di Chioggia'
+    color 'blue, green'
     size  's'
-    price '3.5'
+    price '4.2'
   end
-  factory :kabobcha, class: Pumpkin do
-    name 'Kabobcha'
-    color 'black'
-    size  's'
-    price '3.0'
+  factory :polar, class: Pumpkin do
+    name 'Polar Bear'
+    color 'white'
+    size  'l'
+    price '6.0'
   end
 end
