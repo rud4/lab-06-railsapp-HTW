@@ -1,7 +1,7 @@
 FactoryGirl.define do
-  factory :acorn, class: Pumpkin do
-    name 'Acorn'
-    color 'dark green'
+  factory :Space Pumpkin, class: Pumpkin do
+    name 'Space Pumpkin'
+    color 'metallic green'
     size  's'
     price '3.99'
   end
