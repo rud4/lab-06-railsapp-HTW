@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :Space Pumpkin, class: Pumpkin do
+  factory :space_pumpkin, class: Pumpkin do
     name 'Space Pumpkin'
     color 'metallic green'
     size  's'
