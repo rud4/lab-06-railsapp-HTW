@@ -2,7 +2,7 @@ FactoryGirl.define do
   factory :super, class: Pumpkin do
     name 'Super'
     color 'orange'
-    size  'l'
+    size  'm'
     price '5.0'
   end
   factory :weak, class: Pumpkin do
@@ -11,3 +11,4 @@ FactoryGirl.define do
     size  's'
     price '4.0'
   end
+end
