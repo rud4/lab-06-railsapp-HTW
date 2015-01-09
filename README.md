@@ -5,7 +5,7 @@ Halloween Treats Worldwide Rails App - Example App for Lecture and Basis for Rai
 
 [![Build Status](https://travis-ci.org/htw-imi-info3/HTW.svg?branch=master)](https://travis-ci.org/htw-imi-info3/HTW)
 
-See [Exercise 06 - First Rails Steps](http://bkleinen.github.io/ss2014/info3/labs/lab-06.html)
+This is the source code for * [Exercise 06 - Rails First Steps](http://bkleinen.github.io/info3/labs/lab-06-rails-1.html) 
 
 
 Rails Dash - App Creation
