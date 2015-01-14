@@ -3,10 +3,9 @@ HTW
 
 Halloween Treats Worldwide Rails App - Example App for Lecture and Basis for Rails Exercises
 
-https://travis-ci.org/htw-imi-info3/lab-06-railsapp-HTW.svg?branch=master
 [![Build Status](https://travis-ci.org/htw-imi-info3/lab-06-railsapp-HTW.svg?branch=master)](https://travis-ci.org/htw-imi-info3/lab-06-railsapp-HTW)
 
-This is the source code for * [Exercise 06 - Rails First Steps](http://bkleinen.github.io/info3/labs/lab-06-rails-1.html) 
+This is the source code for [Exercise 06 - Rails First Steps](http://bkleinen.github.io/info3/labs/lab-06-rails-1.html).
 
 
 Rails Dash - App Creation
